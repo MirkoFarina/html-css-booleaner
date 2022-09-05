@@ -1,10 +1,20 @@
 /* general */
+
 *{
   margin: 0;
 }
 
 .lightgrey{
   color: #5a6d71;
+}
+
+.backyellow{
+  background-color: rgb(255, 255, 0);
+}
+
+ul{
+  padding-left: 0;
+  padding-top: 15px;
 }
 
 /* header */
@@ -27,7 +37,8 @@ img{
 .container{
   width: 90%;
   max-width: 1200px;
-  margin: 30px 10px;
+  margin: 0 auto;
+  padding-top: 15px;
 }
 
 h1{
