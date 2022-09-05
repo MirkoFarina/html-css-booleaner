@@ -4,6 +4,7 @@
   margin: 0;
 }
 
+/* classe colori */
 .lightgrey{
   color: #5a6d71;
 }
@@ -12,10 +13,43 @@
   background-color: rgb(255, 255, 0);
 }
 
+.celestino{
+  background-color:rgba(34, 173, 243, 0.3) ;
+}
+/* /classe colori */
+
+
+/* impaginamento lista non ordinata */
 ul{
   padding-left: 0;
   padding-top: 15px;
 }
+/* /impaginamento lista non ordinata */
+
+
+/* Propietà tabella */
+td{
+  width: 33%;
+}
+
+th{
+  width: 33%;
+  text-align: left;
+  color: white;
+}
+
+th{
+  background-color: rgba(34, 173, 243, 0.881);
+}
+
+table{
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+/* /Propietà tabella */
+
+
+
 
 /* header */
 img{
@@ -70,4 +104,8 @@ h1{
 
 #descrizione-foto{
   font-size: 0.7rem;
+}
+
+.padding-p{
+  padding-top: 20px;
 }
