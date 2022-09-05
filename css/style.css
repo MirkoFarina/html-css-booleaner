@@ -3,6 +3,9 @@
   margin: 0;
 }
 
+.lightgrey{
+  color: #5a6d71;
+}
 
 /* header */
 img{
@@ -18,3 +21,20 @@ img{
   height: 180px;
 }
 /* /header */
+
+/* main */
+
+.container{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 10px;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+
+#scrittore-articolo{
+  color: #26c9ff ;
+}
