@@ -52,7 +52,7 @@ table{
 
 
 /* header */
-img{
+#img-logo{
   width: 250px;
   height: 150px;
   margin-top: 50px;
@@ -73,6 +73,7 @@ img{
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 15px;
+  position: relative;
 }
 
 h1{
@@ -108,4 +109,26 @@ h1{
 
 .padding-p{
   padding-top: 20px;
+}
+
+.img-footer{
+  width: 311px;
+  height: 207px;
+  margin: 10px 0;
+}
+
+.img-footer1{
+  background-image: url('../img/monitor.jpg');
+}
+.img-footer2{
+  background-image: url('../img/graph.jpg');
+  background-size: cover;
+}
+
+.over-img-footer{
+  color: white;
+  padding-top: 15px;
+  padding-left: 5px;
+  font-weight: 800;
+  font-size: 1.5rem;
 }
