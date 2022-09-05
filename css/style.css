@@ -27,7 +27,7 @@ img{
 .container{
   width: 90%;
   max-width: 1200px;
-  margin: 0 10px;
+  margin: 30px 10px;
 }
 
 h1{
@@ -37,4 +37,26 @@ h1{
 
 #scrittore-articolo{
   color: #26c9ff ;
+}
+
+.container-img1, .container-img2{
+ display: inline-block;
+
+}
+
+.container-img1{
+  width: 48%;
+  height: 463px;
+  background-image: url('../img/tim-1.jpg');
+  background-size: cover;
+}
+.container-img2{
+  width: 48%;
+  height: 463px;
+  background-image: url('../img/tim-2.jpg');
+  background-size: cover;
+}
+
+#descrizione-foto{
+  font-size: 0.7rem;
 }
